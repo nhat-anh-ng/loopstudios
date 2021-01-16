@@ -1,0 +1,17 @@
+.hero {
+  background-color: url("./images/desktop/image-hero.jpg");
+}
+
+header,
+.navbarRight {
+  display: flex;
+}
+
+.heroBtn,
+.navbarRight {
+  margin-left: auto;
+}
+
+h3 {
+  padding: 0.5rem;
+}
