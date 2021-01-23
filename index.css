@@ -71,3 +71,60 @@ h3 {
 footer {
   background-color: black;
 }
+
+.logo {
+  color: white;
+}
+
+.photo {
+  height: 350px;
+  color: white;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.bml {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.h1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  background-color: burlywood;
+  position: relative;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 2rem;
+  padding: 0rem 2rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  color: white;
+}
