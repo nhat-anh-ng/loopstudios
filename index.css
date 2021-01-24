@@ -105,7 +105,6 @@ footer {
 .flex {
   display: flex;
   justify-content: space-between;
-  background-color: burlywood;
   position: relative;
 }
 
@@ -127,4 +126,8 @@ footer {
 
 p {
   color: white;
+}
+
+.founded {
+  color: black;
 }
