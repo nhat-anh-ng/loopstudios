@@ -1,10 +1,12 @@
 .hero {
   background-image: url("./images/desktop/image-hero.jpg");
+  padding: 3rem;
 }
 
 .header,
 .navbarRight {
   display: flex;
+  color: white;
 }
 
 .heroBtn,
@@ -12,8 +14,50 @@
   margin-left: auto;
 }
 
+h1 {
+  font-weight: 100;
+  font-size: 3rem;
+  padding-left: 2rem;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 2.3rem;
+}
+
 h3 {
-  padding: 0.5rem;
+  font-weight: 100;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+h4 {
+  font-size: 2rem;
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+}
+
+h5,
+.icons {
+  font-size: 1.2rem;
+  padding-right: 1rem;
+  margin-block-start: 1em;
+}
+
+.box {
+  width: 20rem;
+  height: 20rem;
+  padding-left: 5rem;
+  background-color: white;
+  margin-bottom: -25rem;
+  margin-left: -10rem;
+}
+
+.leaderPhoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
 }
 
 .block {
@@ -25,10 +69,22 @@ h3 {
   margin-bottom: 5rem;
 }
 
-.box {
-  width: 20rem;
-  height: 20rem;
-  padding: 3rem;
+.ourCreations {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 2rem;
+  padding: 0rem 2rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 2rem;
 }
 
 .p1 {
@@ -89,39 +145,21 @@ footer {
   left: 0;
 }
 
-.h1 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 10px;
+  gap: 20px 20px;
 }
 
-.flex {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-}
-
-.btn {
-  background-color: black;
-  color: white;
-  border: none;
-  height: 2rem;
-  padding: 0rem 2rem;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+.grid {
+  padding: 5rem;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
+  padding: 5rem;
 }
 
 p {
